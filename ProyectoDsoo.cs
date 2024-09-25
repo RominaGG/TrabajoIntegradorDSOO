@@ -1,8 +1,23 @@
 ﻿using System;
 
-public class Class1
+namespace TpIntegrador
 {
-	public Class1()
+
+
+
+internal class Pago
+{
+	private List<Pago> pagos;
+	private int idSocio;
+	private int idNosocio;
+	private int monto;
+	private  fechaPago;
+	private DateTime fechaVencimiento;
+	private string tipoCuota;
+	private bool estado;
+
+	public Pago(List)
 	{
 	}
+}
 }
